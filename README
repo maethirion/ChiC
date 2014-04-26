@@ -1,0 +1,8 @@
+ChiC = The Chicago Construction
+
+This repository consists of MATLAB codes which help generate the current state of the `storage versus repair-bandwidth tradeoff curves’ for exact-repairable regenerating codes for distributed storage systems.
+
+For details, refer to the following paper(s)
+
+``New Codes and Inner Bounds for Exact Repair in Distributed Storage Systems’’ authored by S. Goparaju, S. El Rouayheb and R. Calderbank.
+http://arxiv.org/abs/1402.2343
