@@ -4,5 +4,21 @@ This repository consists of MATLAB codes which help generate the current state o
 
 For details, refer to the following paper(s)
 
-``New Codes and Inner Bounds for Exact Repair in Distributed Storage Systems’’ authored by S. Goparaju, S. El Rouayheb and R. Calderbank.
+[1] ``New Codes and Inner Bounds for Exact Repair in Distributed Storage Systems’’ by S. Goparaju, S. El Rouayheb and R. Calderbank.
 http://arxiv.org/abs/1402.2343
+
+[2] ``High-Rate Regenerating Codes Through Layering’’ by B. Sasidharan and P. V. Kumar.
+
+[3] ``Exact-Regenerating Codes between MBR and MSR Points’’ by T. Ernvall.
+
+[4] ``Distributed Data Storage Systems with Opportunistic Repair’’ by V. Aggarwal, C. Tian, V. A. Vaishampayan and Y.-F. R. Chen.
+
+[5] ``Asymptotic Interference Alignment for Optimal Repair of MDS codes in Distributed Data Storage’’ by V. R. Cadambe, S. A. Jafar, H. Maleki, K. Ramchandran and C. Suh.
+
+[6] ``Exact-Repair Regenerating Codes Via Layered Erasure Correction and Block Designs’’ by C. Tian, V. Aggarwal and V. A. Vaishampayan.
+
+MATLAB Codes in the Repository:
+
+ISITPoints.m: The primary MATLAB function which plots the storage-repair bandwidth inner bound achievable by the ChiC construction as described in [1] (and its extensions). This inner bound is the current best-known for any (n,k,d) distributed storage system and utilizes the ideas from [2]-[6], and other references in [1].
+
+ChicagoConstruction.m: This is a subsidiary function called by ISITPoints.m to obtain tradeoff curves obtained by different families of code constructions, two of which - Construction 1 and Construction 2 - are described in [1].
