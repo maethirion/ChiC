@@ -22,7 +22,3 @@ MATLAB Codes in the Repository:
 ISITPoints.m: The primary MATLAB function which plots the storage-repair bandwidth inner bound achievable by the ChiC construction as described in [1] (and its extensions). This inner bound is the current best-known for any (n,k,d) distributed storage system and utilizes the ideas from [2]-[6], and other references in [1].
 
 ChicagoConstruction.m: This is a subsidiary function called by ISITPoints.m to obtain tradeoff curves obtained by different families of code constructions, two of which - Construction 1 and Construction 2 - are described in [1].
-=======
-"New Codes and Inner Bounds for Exact Repair in Distributed Storage Systems" authored by S. Goparaju, S. El Rouayheb and R. Calderbank.
-http://arxiv.org/abs/1402.2343
->>>>>>> FETCH_HEAD
